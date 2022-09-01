@@ -32,7 +32,7 @@ a {
     font-size: 24px;
     color: #F9FAF8;
     padding: 10px;
-    border: 1px solid red; /* For debugging */
+    /* border: 1px solid red; /* For debugging */
 }
 
 .links {
@@ -50,7 +50,7 @@ a {
     flex-wrap: wrap;
     width: 500px;
     gap: 10px;
-    border: 1px solid red; /* For debugging */
+    /* border: 1px solid red; /* For debugging */
 }
 
 .intro-title {
@@ -139,6 +139,15 @@ a,
 
 .cta-body {
     color: #F9FAF8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: #F9FAF8;
+    font-size: 18px;
 }
 
 button {
